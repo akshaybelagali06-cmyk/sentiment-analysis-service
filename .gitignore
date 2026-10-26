@@ -11,41 +11,15 @@ venv/
 .cache/
 huggingface/
 
-# Databases
+# Databases and local data
+data/
 *.db
 *.sqlite
 *.sqlite3
 
 # Environment variables
 .env
-
-# Testing
-.pytest_cache/
-.coverage
-htmlcov/
-
-# Editors
-.vscode/
-.idea/# Python
-__pycache__/
-*.py[cod]
-*.egg-info/
-
-# Virtual environments
-.venv/
-venv/
-
-# Model caches
-.cache/
-huggingface/
-
-# Databases
-*.db
-*.sqlite
-*.sqlite3
-
-# Environment variables
-.env
+.env.*
 
 # Testing
 .pytest_cache/
@@ -55,3 +29,7 @@ htmlcov/
 # Editors
 .vscode/
 .idea/
+
+# Build artifacts
+build/
+dist/
